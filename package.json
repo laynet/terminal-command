@@ -1,0 +1,19 @@
+{
+  "name": "terminal-command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laynet/terminal-command.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laynet/terminal-command/issues"
+  },
+  "homepage": "https://github.com/laynet/terminal-command#readme"
+}
