@@ -12,9 +12,20 @@ module.exports.ls = () => {
 };
 
 module.exports.touch = () => {
-  // create a .txt file?
+  fs.writeFile('hello-world.txt', "Hello to this great world", (err) => {
+  if (err) throw err;
+  console.log('success');
+  });
+
 };
 
 module.exports.mkdir = () => {
-  // create a directory
+  fs.mkdir('newDir', (err) => {
+    if(err) {
+      console.log(err.message);
+    } else {
+      console.log('Directory Created');
+    }
+  });
+
 };
